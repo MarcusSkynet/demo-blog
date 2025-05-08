@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(to bottom, #2a0d59, #120a23);
+  color: #eae6f7;
+}
+
+a {
+  color: #c792ea;
+}
+a:hover {
+  color: #ffdd57;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #a18cd1;
+}
+
+.site-header {
+  background-color: rgba(27, 17, 44, 0.85);
+  border-bottom: 1px solid #3a2d55;
+}
+
+.page__footer {
+  background-color: #0c0615;
+  color: #a89bb6;
+}
+
+code, pre {
+  background-color: #1d102c;
+  color: #00ffe0;
+  border-left: 4px solid #3affb3;
+}
