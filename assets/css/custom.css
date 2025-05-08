@@ -2,12 +2,12 @@
 
 body {
   background-color: #000011;
-  background-image: radial-gradient(ellipse at top, #0d0033 0%, #000011 100%);
+  background-image: radial-gradient(ellipse at top, #5c005c 0%, #000011 100%);
   color: #00f0ff;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
   color: #39ff14;
   /* Removed text-shadow for comfort */
 }
