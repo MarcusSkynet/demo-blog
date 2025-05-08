@@ -1,4 +1,4 @@
-/* === Quantum Cyberpunk Theme (Stylish & High-Contrast) === */
+/* === Quantum Neon Theme (No Glow / Softened) === */
 
 body {
   background-color: #000011;
@@ -8,36 +8,39 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #a18cd1;
+  color: #39ff14;
+  /* Removed text-shadow for comfort */
 }
 
 /* Links */
 a {
-  color: #c792ea;
-  text-decoration: none;
+  color: #ff00ff;
+  /* no glow */
 }
 a:hover {
-  color: #ffdd57;
+  color: #ffff00;
 }
 
 /* Code blocks */
 code, pre {
-  background-color: #1d102c;
-  color: #00ffe0;
-  border-left: 4px solid #3affb3;
+  background-color: #000022;
+  color: #ff77ff;
+  border-left: 4px solid #00ffff;
+  /* removed glow */
   padding: 0.2em 0.5em;
 }
 
 /* Footer */
 .page__footer {
-  background-color: #0c0615;
-  color: #a89bb6;
+  background-color: #000022;
+  color: #00f0ff;
+  border-top: 1px solid #ff00ff;
 }
 
 /* Header */
 .site-header {
-  background-color: rgba(27, 17, 44, 0.85);
-  border-bottom: 1px solid #3a2d55;
+  background-color: rgba(0, 0, 20, 0.85);
+  border-bottom: 1px solid #00ffff;
 }
 
 /* Nav bar background fix */
@@ -45,7 +48,7 @@ code, pre {
   background: transparent !important;
 }
 
-/* Force header/nav text styling */
+/* Header/nav text */
 .masthead__inner-wrap,
 .masthead__inner-wrap a,
 .masthead__inner-wrap a:visited,
@@ -53,13 +56,12 @@ code, pre {
 .site-title a,
 .greedy-nav a,
 .site-nav .page-link {
-  color: #eae6f7 !important;
+  color: #00f0ff !important;
   background: none !important;
-  text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
 }
 
 .masthead__inner-wrap a:hover,
 .greedy-nav a:hover,
 .site-nav .page-link:hover {
-  color: #ffdd57 !important;
+  color: #ffff00 !important;
 }
