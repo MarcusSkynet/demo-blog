@@ -48,3 +48,17 @@ code, pre {
   color: #8ef2ca;
   border-left: 4px solid #3affb3;
 }
+
+/* 🔧 Brutal override for header text and nav */
+.site-title a,
+.greedy-nav a,
+.site-nav .page-link {
+  color: #eae6f7 !important;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  background: none !important;
+}
+
+.greedy-nav a:hover,
+.site-nav .page-link:hover {
+  color: #ffdd57 !important;
+}
