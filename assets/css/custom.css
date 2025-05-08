@@ -1,4 +1,4 @@
-/* === Quantum Cyberpunk Theme (Stylish & High-Contrast) === */
+/* === Quantum Refined Theme (Readable & Elegant) === */
 body {
   background: linear-gradient(to bottom, #2a1042, #150d26);
   color: #e6e9f0;
@@ -29,4 +29,26 @@ code, pre {
   background-color: #221633;
   color: #8ef2ca;
   border-left: 4px solid #3affb3;
+}
+
+/* Override header text and nav links */
+.site-title,
+.site-title a,
+.greedy-nav a,
+.greedy-nav a:visited {
+  color: #eae6f7 !important; /* or whatever matches your theme */
+}
+
+.greedy-nav a:hover {
+  color: #ffdd57 !important; /* hover color */
+}
+
+.site-nav .page-link {
+  color: #eae6f7 !important;
+}
+
+.site-title,
+.site-title a,
+.greedy-nav a {
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
 }
