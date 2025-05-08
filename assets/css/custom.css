@@ -57,7 +57,18 @@ code, pre {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   background: none !important;
 }
+.masthead__inner-wrap,
+.masthead__inner-wrap a,
+.masthead__inner-wrap a:visited {
+  color: #eae6f7 !important;
+  background: none !important;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+}
 
+/* 🟡 Optional hover effect */
+.masthead__inner-wrap a:hover {
+  color: #ffdd57 !important;
+}
 .greedy-nav a:hover,
 .site-nav .page-link:hover {
   color: #ffdd57 !important;
