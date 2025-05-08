@@ -21,11 +21,11 @@ Each of these operator types has a specific mathematical definition and a unique
 ### Definition
 A Hermitian operator A satisfies the condition:
 ﻿
-\[
+$$
 A^\dagger = A
-\]
+$$
 ﻿
-Where A^\dagger denotes the **conjugate transpose** (also called the Hermitian adjoint) of A. This means that:
+Where $A^\dagger$ denotes the **conjugate transpose** (also called the Hermitian adjoint) of A. This means that:
 - The diagonal elements of A must be **real**.
 - The off-diagonal elements must be **complex conjugates** of each other.
 ﻿
@@ -39,31 +39,31 @@ In quantum mechanics, **every observable quantity** (position, momentum, energy,
 ### Example
 The Pauli-Z operator:
 ﻿
-\[
+$$
 Z = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}
-\]
+$$
 ﻿
-This matrix is Hermitian, since Z^\dagger = Z.
+This matrix is Hermitian, since $Z^\dagger = Z$.
 ﻿
 ---
 ﻿
 ## 2. Unitary Operators: Time Evolution and Quantum Gates
 ﻿
 ### Definition
-A unitary operator U satisfies:
+A unitary operator $U$ satisfies:
 ﻿
-\[
+$$
 U^\dagger U = U U^\dagger = I
-\]
+$$
 ﻿
-This means U^\dagger = U^{-1}, so unitary operators are **norm-preserving and reversible**.
+This means $U^\dagger = U^{-1}$, so unitary operators are **norm-preserving and reversible**.
 ﻿
 ### Physical Meaning
 Unitary operators describe:
 - **Time evolution** in closed quantum systems:
-\[
+$$
   |\psi(t)\rangle = U(t)|\psi(0)\rangle, \quad U(t) = e^{-iHt/\hbar}
-\]
+$$
 - **Quantum logic gates** in quantum computing.
 - **State rotations** on the Bloch sphere.
 ﻿
@@ -72,28 +72,28 @@ Unitarity ensures that probability is conserved over time.
 ### Example
 The Hadamard gate:
 ﻿
-\[
+$$
 H = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
-\]
+$$
 ﻿
-This matrix is unitary, since H^\dagger H = I.
+This matrix is unitary, since $H^\dagger H = I$.
 ﻿
 ---
 ﻿
 ## 3. Hamiltonian: The Generator of Time Evolution
 ﻿
 ### Definition
-The **Hamiltonian** H is a **Hermitian** operator that represents the **total energy** of the system:
+The **Hamiltonian** $H$ is a **Hermitian** operator that represents the **total energy** of the system:
 ﻿
-\[
+$$
 i\hbar \frac{d}{dt}|\psi(t)\rangle = H|\psi(t)\rangle
-\]
+$$
 ﻿
 The Hamiltonian governs the system's **dynamics** via the **Schrödinger equation**. The unitary time-evolution operator is generated from it:
 ﻿
-\[
+$$
 U(t) = e^{-iHt/\hbar}
-\]
+$$
 ﻿
 ### Physical Meaning
 The Hamiltonian encodes all the physics of a system:
@@ -105,13 +105,13 @@ Importantly, while all Hamiltonians are Hermitian, **not all Hermitian operators
 ﻿
 ### Examples of Hamiltonians
 - **Qubit in magnetic field**:  
-  H = \frac{\omega}{2} Z
+  $H = \frac{\omega}{2} Z$
 ﻿
 - **Free particle in position space**:  
-  H = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2}
+  $H = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2}$
 ﻿
 - **Qubit system**:  
-  H = E_0 |0\rangle\langle 0| + E_1 |1\rangle\langle 1|
+  $H = E_0 |0\rangle\langle 0| + E_1 |1\rangle\langle 1|$
 ﻿
 These illustrate that the Hamiltonian **always represents energy**, but the form of that energy depends on what contributes to it (spin, position, interaction, etc.).
 ﻿
@@ -122,9 +122,9 @@ These illustrate that the Hamiltonian **always represents energy**, but the form
 ### Definition
 An anti-Hermitian operator A satisfies:
 ﻿
-\[
+$$
 A^\dagger = -A
-\]
+$$
 ﻿
 This means:
 - Diagonal elements must be **purely imaginary or zero**.
@@ -137,8 +137,8 @@ Anti-Hermitian operators are rare in quantum mechanics but appear:
 - In mathematical structures used for **symmetry transformations**
 ﻿
 They are closely related to Hermitian operators:
-- A is Hermitian \iff iA is anti-Hermitian
-- Often used in the form e^{A} where A is anti-Hermitian to generate unitaries
+- $A$ is Hermitian $\iff iA$ is anti-Hermitian
+- Often used in the form $e^{A}$ where $A$ is anti-Hermitian to generate unitaries
 ﻿
 ---
 ﻿
@@ -146,7 +146,7 @@ They are closely related to Hermitian operators:
 ﻿
 | Property                 | Hermitian               | Unitary                 | Hamiltonian            | Anti-Hermitian          |
 |--------------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Definition               | A^\dagger = A        | U^\dagger = U^{-1}     | Hermitian + generator of time evolution | A^\dagger = -A       |
+| Definition               | $A^\dagger = A$        | $U^\dagger = U^{-1}$     | Hermitian + generator of time evolution | $A^\dagger = -A$       |
 | Physical Role            | Observables (measurable) | Gates, evolution steps  | Total energy & dynamics | Lie algebras, symmetry   |
 | Reversible?              | No                       | Yes                     | Evolves unitarily       | Only in exponentiated form |
 | Diagonal entries         | Real                     | Complex                  | Real (energy)           | Imaginary or zero        |
@@ -159,9 +159,9 @@ They are closely related to Hermitian operators:
 ### Unitary from Hermitian
 A unitary operator can be generated from a Hermitian one:
 ﻿
-\[
+$$
 U = e^{-iHt/\hbar}
-\]
+$$
 ﻿
 This is the essence of time evolution and how quantum gates can be built in analog systems.
 ﻿
