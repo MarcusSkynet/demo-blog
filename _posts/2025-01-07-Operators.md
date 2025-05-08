@@ -19,14 +19,14 @@ Each of these operator types has a specific mathematical definition and a unique
 ## 1. Hermitian Operators: Observables in Quantum Mechanics
 ﻿
 ### Definition
-A Hermitian operator A satisfies the condition:
+A Hermitian operator $A$ satisfies the condition:
 ﻿
 $$
 A^\dagger = A
 $$
 ﻿
-Where $A^\dagger$ denotes the **conjugate transpose** (also called the Hermitian adjoint) of A. This means that:
-- The diagonal elements of A must be **real**.
+Where $A^\dagger$ denotes the **conjugate transpose** (also called the Hermitian adjoint) of $A$. This means that:
+- The diagonal elements of $A$ must be **real**.
 - The off-diagonal elements must be **complex conjugates** of each other.
 ﻿
 ### Physical Meaning
