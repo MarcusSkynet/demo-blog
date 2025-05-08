@@ -1,29 +1,28 @@
-/* === Quantum Refined Theme (Readable & Elegant) === */
+/* === Quantum Cyberpunk Theme (Stylish & High-Contrast) === */
 
-/* Overall body */
 body {
-  background: linear-gradient(to bottom, #2a1042, #150d26);
-  color: #e6e9f0;
+  background: linear-gradient(to bottom, #2a0d59, #120a23);
+  color: #eae6f7;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #b78aff;
+  color: #a18cd1;
 }
 
 /* Links */
 a {
-  color: #64ffe0;
+  color: #c792ea;
   text-decoration: none;
 }
 a:hover {
-  color: #dda0ff;
+  color: #ffdd57;
 }
 
 /* Code blocks */
 code, pre {
-  background-color: #221633;
-  color: #8ef2ca;
+  background-color: #1d102c;
+  color: #00ffe0;
   border-left: 4px solid #3affb3;
   padding: 0.2em 0.5em;
 }
@@ -31,13 +30,13 @@ code, pre {
 /* Footer */
 .page__footer {
   background-color: #0c0615;
-  color: #aaa;
+  color: #a89bb6;
 }
 
 /* Header */
 .site-header {
-  background-color: rgba(21, 13, 38, 0.9);
-  border-bottom: 1px solid #3f2a55;
+  background-color: rgba(27, 17, 44, 0.85);
+  border-bottom: 1px solid #3a2d55;
 }
 
 /* Nav bar background fix */
