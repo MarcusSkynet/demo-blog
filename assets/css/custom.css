@@ -1,46 +1,42 @@
-/* === Quantum Neon Theme (No Glow / Softened) === */
+/* === Quantum Cyberpunk Theme (Stylish & High-Contrast) === */
 
 body {
-  background-color: #000011;
-  background-image: radial-gradient(ellipse at top, #0d0033 0%, #000011 100%);
-  color: #00f0ff;
+  background: linear-gradient(to bottom, #2a0d59, #120a23);
+  color: #eae6f7;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #39ff14;
-  /* Removed text-shadow for comfort */
+  color: #a18cd1;
 }
 
 /* Links */
 a {
-  color: #ff00ff;
-  /* no glow */
+  color: #c792ea;
+  text-decoration: none;
 }
 a:hover {
-  color: #ffff00;
+  color: #ffdd57;
 }
 
 /* Code blocks */
 code, pre {
-  background-color: #000022;
-  color: #ff77ff;
-  border-left: 4px solid #00ffff;
-  /* removed glow */
+  background-color: #1d102c;
+  color: #00ffe0;
+  border-left: 4px solid #3affb3;
   padding: 0.2em 0.5em;
 }
 
 /* Footer */
 .page__footer {
-  background-color: #000022;
-  color: #00f0ff;
-  border-top: 1px solid #ff00ff;
+  background-color: #0c0615;
+  color: #a89bb6;
 }
 
 /* Header */
 .site-header {
-  background-color: rgba(0, 0, 20, 0.85);
-  border-bottom: 1px solid #00ffff;
+  background-color: rgba(27, 17, 44, 0.85);
+  border-bottom: 1px solid #3a2d55;
 }
 
 /* Nav bar background fix */
@@ -48,7 +44,7 @@ code, pre {
   background: transparent !important;
 }
 
-/* Header/nav text */
+/* Force header/nav text styling */
 .masthead__inner-wrap,
 .masthead__inner-wrap a,
 .masthead__inner-wrap a:visited,
@@ -56,12 +52,13 @@ code, pre {
 .site-title a,
 .greedy-nav a,
 .site-nav .page-link {
-  color: #00f0ff !important;
+  color: #eae6f7 !important;
   background: none !important;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
 }
 
 .masthead__inner-wrap a:hover,
 .greedy-nav a:hover,
 .site-nav .page-link:hover {
-  color: #ffff00 !important;
+  color: #ffdd57 !important;
 }
